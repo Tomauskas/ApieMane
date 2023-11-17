@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Sukūrė Tomas Bitvinskas EDIf-22 -->
+  <meta charset='UTF-8'>
+  <meta name='description' content='Labaratorinio darbo praktika'>
+  <meta name='keywords' content='HTML, labaratorinis, studentas'>
+  <meta name='author' content='Tomas Bitvinskas'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy&display=swap">
+
+  <style>
+    .first-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+  
+    h1 {
+      margin-top: -20px;
+      font-size: 64px;
+      font-family: "Satisfy", serif;
+    }
+  
+    h2 {
+      margin-top: -40px;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  
+    .second-page {
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      background-color: #bde0f0;
+    }
+
+    .image-container {
+      margin-left: 450px; /* Adjust the margin as needed */
+    }
+
+    img {
+      max-height: 100%; /* Ensure the image does not exceed the container's height */
+    }
+
+    .contact-details {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, auto);
+      gap: 10px;
+      margin-left: 20px; /* Adjust the margin as needed */
+      color: #333; /* Adjust text color as needed */
+    }
+  </style>
+
+  <title>Tomas Bitvinskas</title>
+</head>
+
+<body>
+  <div class="first-page">
+    <section>
+      <h1>Tomas Bitvinskas</h1>
+    </section>
+    <section>
+      <h2>Aš esu studentas Vilnius TECH universitete</h2>
+    </section>
+  </div>
+
+  <div class="second-page">
+    <section class="image-container">
+      <img src="kriminalas.jpg" alt="katinelis">
+    </section>
+    
+    <section class="contact-details">
+      <div>
+        <strong>Name:</strong>
+        <p>Tomas Bitvinskas</p>
+      </div>
+      <div>
+        <strong>Website:</strong>
+        <p><a href="http://www.example.com" target="_blank">www.example.com</a></p>
+      </div>
+      <div>
+        <strong>Phone:</strong>
+        <p>+123 456 7890</p>
+      </div>
+      <div>
+        <strong>City:</strong>
+        <p>Vilnius, Lietuva</p>
+      </div>
+      <div>
+        <strong>Age:</strong>
+        <p>20</p>
+      </div>
+      <div>
+        <strong>Degree:</strong>
+        <p>Undergraduate</p>
+      </div>
+      <div>
+        <strong>Email:</strong>
+        <p><a href="mailto:email@example.com">email@example.com</a></p>
+      </div>
+      <div>
+        <strong>Freelance:</strong>
+        <p>Available</p>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
