@@ -1,0 +1,73 @@
+  body {
+    font-family: 'Times New Roman', sans-serif !important ;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 0;
+  }
+  
+  .contact .info-box.message {
+    display: none;
+  }
+  
+  #hero {
+    display: none;
+  }
+
+  #socials{
+    display: none;
+  }
+
+  .contact .email-form {
+    display: none   ;
+  }
+
+  .contact .info-box {
+    box-shadow: none; 
+  }
+  
+  .contact .php-email-form {
+    display: none;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+    display: none;
+  }
+  
+  .contact .php-email-form button[type=submit] {
+    display: none;
+  }
+
+  header{
+    display: none;
+  }
+  .navbar{
+    display: none;
+  }
+
+  .title-text{
+    text-align: left;
+  }
+
+  .info-box i {
+    display: none;
+  }
+
+  .about i{
+    display: none;
+  }
+
+  .resume .resume-item {
+    border-left: none;
+  }
+
+  #print-container{
+    display: none;
+  }
+
+  
+
+  
